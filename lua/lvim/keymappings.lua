@@ -104,6 +104,7 @@ function M.get_defaults()
       ["<A-Down>"] = "<C-\\><C-N><C-w>j",
       ["<A-Left>"] = "<C-\\><C-N><C-w>h",
       ["<A-Right>"] = "<C-\\><C-N><C-w>l",
+      ["<C-g>"] = { 'copilot#Accept("<CR>")', { expr = true, noremap = true } },
     },
 
     ---@usage change or add keymappings for normal mode
